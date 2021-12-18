@@ -1,4 +1,4 @@
-package exercicios_aula1;
+package praticas_integradoras1;
 
 import java.util.Scanner;
 

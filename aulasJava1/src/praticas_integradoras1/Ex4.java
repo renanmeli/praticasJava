@@ -1,6 +1,5 @@
-package exercicios_aula1;
+package praticas_integradoras1;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Ex4 {
