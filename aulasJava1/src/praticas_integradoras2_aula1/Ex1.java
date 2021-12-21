@@ -1,4 +1,4 @@
-package praticas_integradoras2;
+package praticas_integradoras2_aula1;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package praticas_integradoras1;
+package praticas_integradoras1_aula1;
 
     //Desenvolver um programa para exibição por console os n primeiros números naturais que
     //têm pelo menos m dígitos de d, sendo n, m e d valores que o utilizador vai informar pelo
