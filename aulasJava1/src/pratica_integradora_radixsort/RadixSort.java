@@ -63,17 +63,22 @@ public class RadixSort {
             listaCom10.get(digito).add(i);
         }
 
-        System.out.println(listaCom10);
 
-        for (int i = 0; i < listaCom10.size(); i++) {
-            for (int y = 0; y < listaCom10.get(i).size(); y++) {
-                int maxLength2 = 0;
-                if (sArr[cont].length() > maxLength) { //pega o tamanho do maior numero
-                    maxLength2 = sArr[cont].length();
+        //Odenando os elementos da lista ordem crescente sem usar o sort()
+        for (List l : listaCom10) {
+            for (int i = 0; i <= l.size() - 1; i++) {
+                for (int j = 0; j <= l.size() - 2; j++) {
+                    if (Integer.valueOf(l.get(j).toString()) > Integer.valueOf(l.get(j + 1).toString())) {
+                        String temp = l.get(j).toString();
+                        l.set(j, l.get(j + 1));
+                        l.set(j + 1, temp);
+                    }
                 }
             }
 
         }
+
+        System.out.println(listaCom10);
     }
 
 
